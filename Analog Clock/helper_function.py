@@ -1,7 +1,7 @@
 import cv2
 from datetime import datetime
 import math
-from constants import CANVAS_SIZE, RADIUS , CENTER, COLOURS
+from constants import CANVAS_SIZE, RADIUS , CENTER
 
 def get_ticks():
     hours_init = []

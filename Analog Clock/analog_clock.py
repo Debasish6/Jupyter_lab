@@ -11,6 +11,9 @@ hour_init,hour_dest,number_position =get_ticks()
 
 # Drawing a Circle
 cv2.circle(canvas,CENTER,RADIUS+20,(125,125,125),3)
+cv2.circle(canvas,CENTER,RADIUS+30,(150,150,150),3)
+
+cv2.putText(canvas,"Ajanta",(260,213),cv2.FONT_HERSHEY_SCRIPT_COMPLEX,1.5,(0,0,0),3,cv2.LINE_AA)
  
 # Creating tic lines and circles
 k = 0
